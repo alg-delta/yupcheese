@@ -1,0 +1,94 @@
+.wrapper {
+background: rgb(255,170,128);
+background: linear-gradient(309deg, rgba(255,170,128,1) 0%, rgba(255,230,121,1) 1%, rgba(255,191,126,1) 22%, rgba(255,240,120,1) 22%, rgba(255,212,123,1) 50%, rgba(255,172,128,1) 50%, rgba(255,229,121,1) 75%, rgba(255,202,125,1) 75%, rgba(255,174,128,1) 96%, rgba(255,249,128,1) 96%, rgba(255,181,120,1) 100%); 
+background-size: cover;
+min-height: 100vh;
+padding-bottom: 1px;
+}
+.menu{
+	margin:0;
+	margin-left:20px;
+	margin-top:10px;
+	font-size:32px;
+	list-style: none;
+	padding:0;
+	padding-left: 30px;
+	width:630px;
+	border:2px solid #e6ac5c;
+	border-radius:10px 50px;
+	background-color: #f5d253;
+}
+.menu a {
+	display: block;
+	text-decoration: none;
+	color:#f7ff8c;
+	padding: 5px 10px;
+	width:150px;
+	font-weight:bold;
+}
+.menu li {
+	display: inline-block;
+	margin-right: 30px;
+}
+.menu a:hover {
+	border-radius:10px 50px;
+	background-color: #f7ff8c;
+	color:#f5d253;
+}
+.menu a.active {
+	background-color:#e6ac5c;
+	color:#f7ff8c;
+	border:2px solid #f5d253;
+	border-radius:10px 50px;
+}
+.header {
+display: flex;
+gap:100px
+}
+.but { 
+width: 140px;
+height: 60px;
+font-size: 24px;
+border-radius: 6px;
+background-color:#f7ff8c;
+border: 4px double #f5d253;
+margin-top:10px;
+}
+.text {
+font-size:36px;
+color: #78491a;	
+font-weight:bold;
+margin-left: 40px;
+
+}
+.text-sub {
+font-size:30px;
+color: #78491a;	
+font-weight:bold;
+margin-left: 40px;
+}
+.margintext {
+	margin-top: 250px;
+}
+
+body {
+	margin: 0;
+}
+.ico {
+margin-left:10px;
+margin-top:10px;
+}
+.the {
+height:500px; 
+margin-left:650px;
+margin-top:-350px;
+}
+.cheese {
+height:628px;
+width:1200px;
+}
+ .sos {
+list-style: none;
+text-align: center;
+ }
+ 
